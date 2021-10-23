@@ -1,6 +1,5 @@
-# ledtoken-erc20
-## LED Token - Sport &amp; Health / AI / IPFS / Blockchain - Earn Rewards for following Doctor's or Coach's physical healthy workout regimes.
-
+# LED Token - Sport &amp; Health / AI / IPFS / Blockchain - Earn Rewards for following Doctor's or Coach's physical healthy workout regimes.
+## ledtoken-erc20 smartcontract
 #minted on 5/26/2019
 
 LEDToken.net
@@ -16,5 +15,3 @@ LED uses an interplanetary file system infrastructure built on a decentralized n
 
 
 We are developing real world solutions in the Sport & Health industry to protect the assets (Athletes/Players) and be able to share data and analytics to Coaches and Trainers in in the World including Sport leagues as well as Insurance companies who require the Patient's data. The data is hash encrypted in Ethereum's blockchain for security and integrated using a web3.0 digital wallet as a vehicle. Athletes and Patients can earn LED token rewards and accrue them to pay for health services within the LED eco system or convert tokens back to Ethereum or other bridged tokens or currencies.
-
-
