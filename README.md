@@ -3,8 +3,7 @@
 #minted on 5/26/2019
 
 LEDToken.net
-
-(Web3.0 IPFS)
+(Website's DNS-->ENS-->IPFS)
 
 
 
