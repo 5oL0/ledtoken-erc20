@@ -1,4 +1,4 @@
-# LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Rewards for following Doctor's or Coach's physical healthy workout regimes.
+# LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Rewards for working out and living healthier.
 ## ledtoken-erc20 smartcontract
 #minted on 5/26/2019
 
