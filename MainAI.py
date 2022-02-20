@@ -12,7 +12,7 @@ class MyFrame(wx.Frame):
         panel = wx.Panel(self)
         my_sizer = wx.BoxSizer(wx.VERTICAL)
         lbl = wx.StaticText(panel,
-        label="Hello I am Solo the Python Digital Assistant. How can I help you?")
+        label="Hello I am LED AI the Python Digital Assistant. How can I help you?")
         my_sizer.Add(lbl, 0, wx.ALL, 5)
         self.txt = wx.TextCtrl(panel, style=wx.TE_PROCESS_ENTER,size=(400,30))
         self.txt.SetFocus()
