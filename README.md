@@ -1,10 +1,10 @@
 # LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Rewards for working out and living healthier.
 ## ledtoken-erc20 smartcontract
-#minted on 5/26/2019
+minted on 5/26/2019
 Copyright © 2019
 
 
-##LEDToken.net
+### LEDToken.net
 (LED - Linear Exchange Datashares)
 website runs on IPFS
 
