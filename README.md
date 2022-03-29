@@ -8,7 +8,7 @@ Copyright © 2019
 (LED - Linear Exchange Datashares)
 website runs on IPFS
 
-Ethereum Name Service (ENS)
+Ethereum Name Service (ENS):
 ledtoken.eth
 
 Instagram: https://instagram.com/l.e.d.toke
