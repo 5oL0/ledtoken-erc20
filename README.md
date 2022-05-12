@@ -11,7 +11,7 @@ website runs on IPFS
 Ethereum Name Service (ENS):
 ledtoken.eth
 
-Instagram: https://instagram.com/l.e.d.toke
+Instagram: https://instagram.com/l.e.d.token
 
 Telegram: 
 https://t.me/ledtoken
