@@ -1,0 +1,39 @@
+'use strict';
+
+const { Contract } = require('fabric-network');
+const path = require('path');
+
+async function main() {
+  try {
+    // Create a new contract
+    const contract = new Contract('led-chain');
+
+    // Set the network to use
+    const network = await contract.getNetwork('mychannel');
+
+    // Get the contract from the network
+    const contract = network.getContract('led-chain');
+
+    // Set the total supply of LED coins
+    await contract.submitTransaction('initLedChain', '8000000000');
+
+    // Set the identity of a user
+    await contract.submitTransaction('setIdentity', 'user1', 'John Smith', '123 Main St.', '12345');
+
+    // Get the identity of a user
+    const identity = await contract.evaluateTransaction('getIdentity', 'user1');
+    console.log(identity);
+
+    // Set the health data of a user
+    await contract.submitTransaction('setHealthData', 'user1', 'Blood Pressure', '120/80');
+
+    // Get the health data of a user
+    const healthData = await contract.evaluateTransaction('getHealthData', 'user1', 'Blood Pressure');
+    console.log(healthData);
+  } catch (error) {
+    console.error(`Error interacting with LED Chain: ${error}`);
+    process.exit(1);
+  }
+}
+
+main();
