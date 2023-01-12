@@ -25,7 +25,7 @@ LED Token is a sport and health utility token (erc20) or "smart contract" writte
 
 Products Developed
 
--LED performance dashboard which is a web application for monitoring physical activities and workout regimes and notifications. 
+-LED web application for health monitoring of physical activities and workout/health regimens and coaching & notifications. 
 
 -LED Token wallet which integrates with MetaMask for token transfers
 
@@ -33,19 +33,18 @@ Products Developed
 
 -Moralis.io web3 servers for Multichain wallet and LED Defi exchange
 
+-Crypto trading bot for automated trades
 
 
 In Development
 
--LED AI Jarvis coaching assistant built on Python which acts as an expert input/output question system using Speech to text, NLP, Scikit, and Numpy
+-LED AI Jarvis coaching assistant built on Python which acts as an expert input/output question system using Speech Recognition, NLP, Scikit, Numpy
 
--Crypto trading bots for automated trades
-
--MetaVerse Fitness center where you can workout and earn tokens for your body activities
+-MetaVerse Fitness center where you can workout and earn tokens in a move to earn platform
 
 -API integration with the Native smartphone health app which will allow the health data to be converted into Cryptocurrency (LED tokens) and can be used within the LED health eco system or bridged to Ethereum for conversion
 
--Interplanetary file system (IPFS) for health records (ehr) which will hash encrypt patient data on a decentralized peer2peer network to secure the data. 
+-Interplanetary file system (IPFS) for health records (ehr) which will hash encrypt patient data on a decentralized peer2peer network to help secure the data. 
 
 
 Users own their health data and can share it via the Blockchain to Doctors, Hospitals, Coaches/Trainers, Insurance companies using QRcodes. Patients and Athletes can earn LED token rewards and accrue them to pay for health services within the LED eco system or convert tokens back to Ethereum or Bitcoin. Gamers in the metaverse will be able to earn LED tokens by their physical activity.
