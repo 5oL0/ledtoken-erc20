@@ -6,13 +6,13 @@ const path = require('path');
 async function main() {
   try {
     // Create a new contract
-    const contract = new Contract('led-health');
+    const contract = new Contract('led-token');
 
     // Set the network to use
     const network = await contract.getNetwork('mychannel');
 
     // Get the contract from the network
-    const contract = network.getContract('led-health');
+    const contract = network.getContract('led-token');
 
     // Set the total supply of LED coins
     await contract.submitTransaction('initLedChain', '8000000000');
@@ -31,7 +31,7 @@ async function main() {
     const healthData = await contract.evaluateTransaction('getHealthData', 'user1', 'Blood Pressure');
     console.log(healthData);
   } catch (error) {
-    console.error(`Error interacting with LED Health: ${error}`);
+    console.error(`Error interacting with LED Token: ${error}`);
     process.exit(1);
   }
 }
