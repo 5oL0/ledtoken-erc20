@@ -1,7 +1,7 @@
-# LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Rewards for working out and living healthier.
+# LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Tokens as Rewards for working out, exercising and living healthier.
 ## ledtoken-erc20 smartcontract
 minted on 5/26/2019
-Copyright © 2019
+Copyright © 2019 LED Token
 
 
 ### LEDToken.net
@@ -20,7 +20,7 @@ Twitter:
 @Tokenled
 
 
-LED Token is a sport and health utility token (erc20) or "smart contract" written on the Ethereum Blockchain which focuses on rewarding users by following and completing workout regimes.
+LED Token is a sport and health utility token (erc20) or "smart contract" written on the Ethereum Blockchain which focuses on rewarding users by following and completing workouts and healthy regimens.
 
 
 Products Developed
