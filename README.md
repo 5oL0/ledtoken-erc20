@@ -5,7 +5,7 @@ Copyright © 2019
 
 
 ### LEDToken.net
-(LED - Linear Exchange Datashares)
+LED - Linear Exchange Datashares
 website runs on IPFS
 
 Ethereum Name Service (ENS):
