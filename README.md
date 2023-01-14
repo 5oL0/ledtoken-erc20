@@ -1,7 +1,7 @@
 # LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Tokens as Rewards for working out, exercising and living healthier.
 ## ledtoken-erc20 smartcontract
 token minted on 5/26/2019
-#### Copyright © 2019 LED Token
+####### Copyright © 2019 LED Token
 
 
 ### LEDToken.net
@@ -25,11 +25,11 @@ LED Token is a sport and health utility token (erc20) or "smart contract" writte
 
 Products Developed
 
--LED web application for health monitoring of physical activities and workout/health regimens and coaching & notifications. 
+-LED web application for health monitoring of physical activities and health regimens which includes a coaching assistant, reminders & notifications. 
 
 -LED Token wallet which integrates with MetaMask for token transfers
 
--LED healthy habit dApp which is an application that acts as a Piggy bank where you get rewarded by staking your tokens at the beginning of the week and rewarding you for completing your regime workouts at the end of the week.
+-LED healthy habit desktop dApp which acts as a Piggy bank where you get rewarded by staking your tokens at the beginning of the week and rewarding you for completing your regime workouts at the end of the week.
 
 -Moralis.io web3 servers for Multichain wallet and LED Defi exchange
 
