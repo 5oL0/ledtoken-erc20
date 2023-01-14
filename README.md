@@ -33,6 +33,8 @@ Products Developed
 
 -Moralis.io web3 servers for Multichain wallet and LED Defi exchange
 
+-LED Token mobile app front end
+
 -Crypto trading bot for automated trades
 
 
