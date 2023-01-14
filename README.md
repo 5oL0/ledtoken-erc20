@@ -1,7 +1,7 @@
 # LED Token - Sport & Health / AI / IPFS / Blockchain - Earn Tokens as Rewards for working out, exercising and living healthier.
 ## ledtoken-erc20 smartcontract
 token minted on 5/26/2019
-Copyright © 2019 LED Token
+### Copyright © 2019 LED Token
 
 
 ### LEDToken.net
@@ -56,6 +56,6 @@ Why LED
 
 LED token is compatible and can be bridged to Ethereum and other blockchains like Polygon, Avalanche, and Binance. People can send & receive tokens to their LED Token digi wallets in a secured way and also earn tokens for working out. 
 
-The LED app will be linked to a companion smart health app which will handle features like NFC crypto payments, LED Blockchain explorer for tracing transactions and also security & encryption to protect user health data as well as reward them for their targets/goals and healthy habits.
+The LED mobile app will act as a coaching assitant and keep track of your health data and will allow users to earn Crypto for meeting Exercise & Health target goals.
 
 Blockchain, Crypto, Metaverse, Gaming, Smart wearables, Fitness Earn/Rewards/Incentive tokens are the future!
