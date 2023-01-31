@@ -1,0 +1,26 @@
+##Mobile App for iOS that allows users to earn cryptocurrency for completing exercises and  health regimens and getting rewarded with erc20 LED Tokens that they can use and exchange in a health marketplace or crypto ecosystem
+
+    Introduction: The mobile app will be designed for iOS users and will reward them with LED Tokens (ERC20 tokens) for completing exercise and health regimens.
+
+    Features:
+        User registration and login
+        Daily exercise and health tracking
+        Personalized health goals and progress tracking
+        Earn LED Tokens for completed exercises and health regimens
+        In-app health marketplace to redeem LED Tokens for health products and services
+        Exchange LED Tokens for other cryptocurrencies in the app
+        Push notifications to motivate and remind users to complete their health goals
+
+    User interface:
+        Simple and user-friendly interface
+        Dashboard to display health progress and token balance
+        Easy navigation between different sections of the app
+        Use of gamification elements to keep users engaged and motivated
+
+    Technology Stack:
+        iOS mobile app development
+        Ethereum blockchain for LED Token management and transactions
+        Use of a smart contract to automate token distribution and transactions
+
+    Conclusion: The app will provide a unique and incentivizing way for users to prioritize their health and wellness while earning cryptocurrency in return. With the integration of a health marketplace and crypto exchange, users will have a multitude of ways to use their earned LED Tokens.
+    Following an Android Mobile application for further expansion.
