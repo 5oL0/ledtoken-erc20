@@ -1,4 +1,4 @@
-// ERC20 smart contract written with max supply of 7 billion tokens at 18 decimal precision, optimized for gas fees, secure with no vulnerabilities, with additional functions for storing data, such as identity and health data:
+// ERC20 smart contract written with max supply of 8 billion tokens at 18 decimal precision, optimized for gas fees, secure with no vulnerabilities, with additional functions for storing data, such as identity and health data:
 pragma solidity ^0.8.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol";
@@ -8,7 +8,7 @@ contract LEDH is SafeERC20 {
   using SafeMath for uint256;
 
   // Total max supply of LEDH tokens
-  uint256 public constant MAX_SUPPLY = 7000000000 * (10 ** 18);
+  uint256 public constant MAX_SUPPLY = 8000000000 * (10 ** 18);
 
   // Mapping to store identity data for each address
   mapping(address => Identity) public identities;
