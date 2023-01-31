@@ -44,7 +44,7 @@ LED Token is a sport and health utility token (erc20) or "smart contract" writte
 
 ## Products In Development
 
--LED AI Jarvis coaching assistant built on Python which acts as an expert input/output question system using Speech Recognition, NLP, Scikit, Numpy
+-LED AI Jarvis coaching assistant built on Python which acts as an expert input/output question system using Speech Recognition, NLP, Scikit, Numpy, WolframAlpha
 
 -MetaVerse Fitness center where you can workout and earn tokens in a move to earn platform
 
