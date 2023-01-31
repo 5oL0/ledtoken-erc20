@@ -23,7 +23,7 @@ Twitter:
 LED Token is a sport and health utility token (erc20) or "smart contract" written on the Ethereum Blockchain which focuses on rewarding users by following and completing workouts and healthy regimens.
 
 
-Products Developed
+## Products Developed
 
 -LED web dashboard for health monitoring of physical activities and health regimens which includes a coaching assistant, reminders & notifications. 
 
@@ -42,7 +42,7 @@ Products Developed
 -Crypto trading bot for automated trades in Python & Nodejs
 
 
-In Development
+## Products In Development
 
 -LED AI Jarvis coaching assistant built on Python which acts as an expert input/output question system using Speech Recognition, NLP, Scikit, Numpy
 
@@ -56,10 +56,12 @@ In Development
 Users own their health data and can share it via the Blockchain to Doctors, Hospitals, Coaches/Trainers, Insurance companies using QRcodes. Patients and Athletes can earn LED token rewards and accrue them to pay for health services within the LED eco system or convert tokens back to Ethereum or Bitcoin. Gamers in the metaverse will be able to earn LED tokens by their physical activity.
 
 
-Why LED
+## Why LED
 
-LED token is compatible and can be bridged to Ethereum and other blockchains like Polygon, Avalanche, and Binance. People can send & receive tokens to their LED Token digi wallets in a secured way and also earn tokens for working out. 
+LED token is written on the Ethereum Blockchain which is the biggest Blue Chip Crypto and biggest dApp network but can be multi-chain and interoperable with other blockchains like Polygon, Avalanche, Fantom, and Binance. 
 
-The LED mobile app will act as a coaching assitant and keep track of your health data and will allow users to earn Crypto for meeting Exercise & Health target goals.
+People can earn tokens with no money to start or pay for different plans with additional features/functions. 
+
+The LED mobile app will act as a coaching assitant and allow users to accept their recommended regimen plans & earn Crypto for completing their Exercise & Health target goals while keeping track of their health data and progress
 
 Blockchain, Crypto, Metaverse, Gaming, Smart wearables, Fitness Earn/Rewards/Incentive tokens are the future!
