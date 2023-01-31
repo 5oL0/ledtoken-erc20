@@ -25,17 +25,21 @@ LED Token is a sport and health utility token (erc20) or "smart contract" writte
 
 Products Developed
 
--LED web application for health monitoring of physical activities and health regimens which includes a coaching assistant, reminders & notifications. 
+-LED web dashboard for health monitoring of physical activities and health regimens which includes a coaching assistant, reminders & notifications. 
 
 -LED Token wallet which integrates with MetaMask for token transfers
 
--LED healthy habit desktop dApp which acts as a Piggy bank where you get rewarded by staking your tokens at the beginning of the week and rewarding you for completing your regime workouts at the end of the week.
+-LED healthy habit dApp which acts as a Piggy bank but allows you to accumulate tokens by staking them and lock them up until you complete your goals.
 
--Moralis.io web3 servers for Multichain wallet and LED Defi exchange
+-Integration with Moralis.io web3 servers for Multichain interoperability and LED Defi exchange
 
--LED Token mobile app front end
+-Automation & Orchestration of LED nodes in AWS Cloud using Terraform, Ansible, Packer toolstack
 
--Crypto trading bot for automated trades
+-LED Token mobile app for earning and getting rewarded in LED tokens for exercising & completing healthy regimens - front end design with Adobe XD 
+
+-NFT erc721 3D animated LED Token card design
+
+-Crypto trading bot for automated trades in Python & Nodejs
 
 
 In Development
