@@ -69,4 +69,6 @@ People can earn tokens with no money to start or pay for different plans with ad
 
 The LED mobile app will act as a coaching assitant and allow users to accept their recommended regimen plans & earn Crypto for completing their Exercise & Health target goals while keeping track of their health data and progress
 
-Blockchain, Crypto, Metaverse, Gaming, Smart wearables, Fitness Earn/Rewards/Incentive tokens are the future!
+Integrate the dApp with smart wearable devices, such as fitness trackers or smartwatches, to automate the process of verifying the completion of an exercise or health regimen. This would allow the dApp to detect when a user has completed a certain number of steps, distance swam, or duration of sleep, and trigger the smart contract to reward the user with LED tokens.
+
+Blockchain, Crypto, Metaverse, Gaming, Smart wearables, Fitness Earn/Rewards/Incentive tokens is the future!!!
