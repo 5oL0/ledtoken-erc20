@@ -37,7 +37,7 @@ LED Token is a sport and health utility token (erc20) or "smart contract" writte
 
 -LED Token mobile app for earning and getting rewarded in LED tokens for exercising & completing healthy regimens - front end design with Adobe XD 
 
--NFT erc721 3D animated LED Token card design
+-Minted NFT erc721 3D animated LED Token card design
 
 -Crypto trading bot for automated trades in Java & Nodejs
 
