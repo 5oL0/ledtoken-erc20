@@ -5,50 +5,74 @@ contract LEDToken {
     string public constant name = "LED Token";
     string public constant symbol = "LED";
     uint8 public constant decimals = 18;
-    uint256 public totalSupply;
-    mapping(address => uint256) public balanceOf;
-    mapping(address => mapping(string => bool)) public exerciseCompleted;
+    uint256 public constant totalSupply = 1_000_000_000_000 * 10 ** decimals;
+
+    mapping(address => uint256) private balances;
+    mapping(address => mapping(address => uint256)) private allowed;
+
     event Transfer(address indexed from, address indexed to, uint256 value);
-    event ExerciseCompleted(address indexed user, string exercise, uint256 reward);
-    
-    constructor(uint256 initialSupply) {
-        totalSupply = initialSupply;
-        balanceOf[msg.sender] = initialSupply;
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+
+    constructor() {
+        balances[msg.sender] = totalSupply;
+        emit Transfer(address(0), msg.sender, totalSupply);
     }
-    
-    function transfer(address to, uint256 value) public returns (bool success) {
-        require(balanceOf[msg.sender] >= value);
-        balanceOf[msg.sender] -= value;
-        balanceOf[to] += value;
-        emit Transfer(msg.sender, to, value);
+
+    function balanceOf(address _owner) public view returns (uint256) {
+        return balances[_owner];
+    }
+
+    function transfer(address _to, uint256 _value) public returns (bool) {
+        require(_to != address(0), "Invalid address");
+
+        uint256 senderBalance = balances[msg.sender];
+        require(senderBalance >= _value, "Insufficient balance");
+
+        balances[msg.sender] = senderBalance - _value;
+        balances[_to] += _value;
+        emit Transfer(msg.sender, _to, _value);
+
         return true;
     }
-    
-    function completeExercise(string memory exercise) public returns (bool success) {
-        address user = msg.sender;
-        uint256 reward;
-        if (exerciseCompleted[user][exercise] == false) {
-            if (keccak256(bytes(exercise)) == keccak256(bytes("run"))) {
-                reward = 10;
-            } else if (keccak256(bytes(exercise)) == keccak256(bytes("yoga"))) {
-                reward = 20;
-            } else if (keccak256(bytes(exercise)) == keccak256(bytes("walk"))) {
-                reward = 20;
-            } else if (keccak256(bytes(exercise)) == keccak256(bytes("swim"))) {
-                reward = 10;
-            } else if (keccak256(bytes(exercise)) == keccak256(bytes("sleep"))) {
-                reward = 5;
-            } else if (keccak256(bytes(exercise)) == keccak256(bytes("gym"))) {
-                reward = 20;
-            } else {
-                revert("Invalid exercise");
-            }
-            exerciseCompleted[user][exercise] = true;
-            balanceOf[user] += reward;
-            emit ExerciseCompleted(user, exercise, reward);
-            return true;
-        } else {
-            revert("Exercise already completed");
-        }
+
+    function approve(address _spender, uint256 _value) public returns (bool) {
+        allowed[msg.sender][_spender] = _value;
+        emit Approval(msg.sender, _spender, _value);
+        return true;
+    }
+
+    function allowance(address _owner, address _spender) public view returns (uint256) {
+        return allowed[_owner][_spender];
+    }
+
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {
+        require(_to != address(0), "Invalid address");
+
+        uint256 senderBalance = balances[_from];
+        uint256 allowedAmount = allowed[_from][msg.sender];
+        require(senderBalance >= _value && allowedAmount >= _value, "Insufficient balance or allowance");
+
+        balances[_from] = senderBalance - _value;
+        allowed[_from][msg.sender] = allowedAmount - _value;
+        balances[_to] += _value;
+        emit Transfer(_from, _to, _value);
+
+        return true;
+    }
+
+    // Function to validate the completion of an exercise or health regimen and reward the user with LED tokens upon completion
+    function validateAndRewardExercise(address _user, uint256 _value) public returns (bool) {
+        // Perform validation here
+        // If validation succeeds, reward the user with LED tokens
+
+        balances[_user] += _value;
+        emit Transfer(address(this), _user, _value);
+
+        return true;
+    }
+
+    // Function to get the total number of LED tokens earned by a user
+    function totalEarnedTokens(address _user) public view returns (uint256) {
+        return balances[_user];
     }
 }
