@@ -63,12 +63,29 @@ Users own their health data and can share it via the Blockchain to Doctors, Hosp
 
 ## Why LED
 
-LED token is written on the Ethereum Blockchain which is the biggest Blue Chip Crypto and biggest dApp network but can be multi-chain and interoperable with other blockchains like Polygon, Avalanche, Fantom, and Binance. 
+LED token is written on the Ethereum Blockchain which is the biggest Blue Chip Crypto and biggest dApp network and currently working on multichain interoperability with other blockchains like Polygon, Avalanche, Fantom, Solana and Binance. 
 
-People can earn tokens with no money to start or pay for different plans with additional features/functions. 
+Step Recording: Records steps walked by the user and for every 5000 steps, the mobile app rewards the user with 10 LED Tokens for example
 
-The LED mobile app will act as a coaching assitant and allow users to accept their recommended regimen plans & earn Crypto for completing their Exercise & Health target goals while keeping track of their health data and progress
+Batch Minting and Reward Calculation: Instead of minting tokens individually for each action (steps, swimming, calorie burn), batch the minting process. Accumulate rewards and mint in larger quantities at intervals. This reduces the number of individual transactions, which can be gas-expensive.
 
-Integrate the dApp with smart wearable devices, such as fitness trackers or smartwatches, to automate the process of verifying the completion of an exercise or health regimen. This would allow the dApp to detect when a user has completed a certain number of steps, distance swam, or duration of sleep, and trigger the smart contract to reward the user with LED tokens.
+Storage Optimization: Use storage efficiently. For instance, consider using arrays or mappings with structs if certain data can be grouped together. Minimize redundant data storage if possible.
 
-Blockchain, Crypto, Metaverse, Gaming, Smart wearables, Fitness Earn/Rewards/Incentive tokens is the future!!!
+Reduce Redundant Computations: In functions like recordSteps, recordSwimmingLengths, and recordCaloriesBurnt, you're calculating tokensEarned similarly. Consider creating a separate internal function to handle token calculation to avoid redundancy.
+
+Event Logging: Emit events efficiently. Emit events when necessary but avoid excessive event emissions, as they consume gas.
+
+Staking Rewards Calculation: Review the staking rewards formula in the unstake function. Ensure it accurately calculates rewards based on your intended staking mechanism.
+
+Gas-Efficient Loops: If you're using loops, ensure they are gas-efficient. Gas costs increase with loop iterations, so optimize loop functionalities.
+
+Integrate the dApp with smart wearable devices, such as fitness trackers or smartwatches, to automate the process of verifying the completion of an exercise or health regimen.
+
+Record Cycling Distance: Similar to recordSteps and recordSwimmingLengths, you can have a function to record cycling distance and reward users accordingly.
+
+Track Calorie Burn: If your contract involves fitness, tracking calorie burn could be useful.
+
+Achievement Unlocks: Reward users for reaching specific milestones or achievements.
+
+Community Challenges: Implement functions for participating in or completing community challenges.
+
